@@ -38,7 +38,7 @@
             // 
             // btnReverseList
             // 
-            this.btnReverseList.Location = new System.Drawing.Point(12, 12);
+            this.btnReverseList.Location = new System.Drawing.Point(16, 12);
             this.btnReverseList.Name = "btnReverseList";
             this.btnReverseList.Size = new System.Drawing.Size(129, 23);
             this.btnReverseList.TabIndex = 1;
