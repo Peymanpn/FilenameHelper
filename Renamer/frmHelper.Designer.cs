@@ -79,7 +79,7 @@
             this.txtSeason.Name = "txtSeason";
             this.txtSeason.Size = new System.Drawing.Size(38, 20);
             this.txtSeason.TabIndex = 7;
-            this.txtSeason.Text = "02";
+            this.txtSeason.Text = "01";
             // 
             // button1
             // 
