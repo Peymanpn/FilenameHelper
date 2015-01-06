@@ -33,7 +33,8 @@
             this.chkAddSeason = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txtSeason = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnBatchRenameFolder = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnReverseList
@@ -81,21 +82,32 @@
             this.txtSeason.TabIndex = 7;
             this.txtSeason.Text = "01";
             // 
-            // button1
+            // btnBatchRenameFolder
             // 
-            this.button1.Location = new System.Drawing.Point(11, 333);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(130, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Batch Rename Folders";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnBatchRenameFolder.Location = new System.Drawing.Point(124, 333);
+            this.btnBatchRenameFolder.Name = "btnBatchRenameFolder";
+            this.btnBatchRenameFolder.Size = new System.Drawing.Size(130, 23);
+            this.btnBatchRenameFolder.TabIndex = 10;
+            this.btnBatchRenameFolder.Text = "Batch Rename Folders";
+            this.btnBatchRenameFolder.UseVisualStyleBackColor = true;
+            this.btnBatchRenameFolder.Click += new System.EventHandler(this.btnBatchRenameFolder_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(9, 338);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Select Parent Folder :";
             // 
             // frmHelper
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(432, 368);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.btnBatchRenameFolder);
             this.Controls.Add(this.chkAddSeason);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtSeason);
@@ -115,6 +127,7 @@
         private System.Windows.Forms.CheckBox chkAddSeason;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtSeason;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnBatchRenameFolder;
+        private System.Windows.Forms.Label label2;
     }
 }
