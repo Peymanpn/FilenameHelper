@@ -14,6 +14,7 @@ namespace Renamer
         {
 			//Test 2
 			//changes on ver1 branch.
+            //change from vs2013s
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain( ));
