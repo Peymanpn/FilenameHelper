@@ -12,7 +12,7 @@ namespace Renamer
         [STAThread]
         static void Main()
         {
-			//Test
+			//Test2222
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain( ));
