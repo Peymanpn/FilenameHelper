@@ -13,8 +13,6 @@ namespace Renamer
         static void Main()
         {
 			//Test
-			//test 2
-			
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new frmMain( ));
